@@ -51,3 +51,54 @@ nav#menu a:hover {
   background-color: var(--destaque-inverso);
   color: var(--destaque);
 }
+
+main {
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+section#ficha {
+  background-color: var(--fundo-card);
+  padding: 1.5rem;
+  border-radius: 8px;
+  grid-column: 2;
+}
+
+section#ficha img.foto {
+  width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid var(--fundo-card);
+  outline: 5px solid var(--destaque);
+  display: block;
+  margin: 0 auto 1.2rem;
+}
+
+section#ficha h1 {
+  color: var(--destaque);
+  font-size: 2em;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+div#social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  margin-top: .7rem;
+}
+
+div#social a {
+  color: var(--destaque);
+  transition: color .4s ease;
+}
+
+div#social a:hover {
+  color: var(--destaque-inverso);
+}
