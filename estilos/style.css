@@ -116,7 +116,7 @@ article {
 
 article h2 {
   color: var(--destaque);
-  margin-bottom: .9rem;
+  margin-bottom: 1.2rem;
 }
 
 #skill-container {
@@ -152,6 +152,43 @@ article h2 {
   height: 100%;
   background-color: var(--destaque-inverso);
   border-radius: 5px;
+}
+
+#formacao-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding: .7rem 1rem;
+  transition: border-width 0.5s ease, border-color 0.5s ease;
+}
+
+#formacao-container .curso:hover {
+  border-color: var(--destaque);
+  border-left-width: 15px;
+  cursor: pointer;
+}
+
+#formacao-container .periodo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#formacao-container .instituicao {
+  font-size: 1.2em;
+  color: var(--destaque-inverso);
+}
+
+#formacao-container .titulacao {
+  font-weight: bold;
+  color: var(--texto);
 }
 
 @media screen And (min-width: 768px) {
