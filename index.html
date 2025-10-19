@@ -1,308 +1,448 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio José Gabriel</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg">
-    <link rel="stylesheet" href="estilos/style.css">
-    <script src="https://kit.fontawesome.com/274ffe0712.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <link rel="stylesheet" href="estilos/style.css" />
+    <script
+      src="https://kit.fontawesome.com/274ffe0712.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav id="menu">
-            <ul>
-                <li><a href="#"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
-            </ul>
-        </nav>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="#ficha" class="link"><i class="fa-solid fa-house-chimney"></i></a>
+          </li>
+          <li>
+            <a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a>
+          </li>
+          <li>
+            <a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a>
+          </li>
+          <li>
+            <a href="#detalhes" class="link"><i class="fa-solid fa-trowel-bricks"></i></a>
+          </li>
+          <li>
+            <a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section id="ficha">
-            <img src="imagens/gabriel-perfil.jpg" alt="Foto de perfil de José Gabriel" class="foto">
-            <h1>José Gabriel</h1>
-            <p>Sou desenvolvedor front-end apaixonado por criar experiências digitais intuitivas. Trabalho com tecnologias modernas e foco na usabilidade. Busco entregar interfaces que conectam pessoas e propósito. Detalhista, ágil e sempre em evolução. Comprometido com qualidade, clareza e evolução constante.</p>
-            <div id="social">
-                <a href="mailto:josegabriel.webdev@gmail.com?subject=Contato%20via%20portfólio&body=Olá%20José%2C%20acabei%20de%20ver%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20uma%20possível%20colaboração.
-" target="_blank" rel="nofollow"><i class="fa-solid fa-envelope"></i></a> <!-- Fim link Email-->
-                <a href="https://www.linkedin.com/in/josegabrieldev/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin-in"></i></a> <!-- Fim link LinkedIn-->
-                <a href="https://wa.me/5583996860603?text=Olá%20José%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20seus%20serviços.
-" target="_blank" rel="nofollow"><i class="fa-brands fa-whatsapp"></i></a> <!-- Fim link WhatsApp-->
-                <a href="https://github.com/josegabrieldev" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a> <!-- Fim link GitHub-->
-                <a href="https://www.instagram.com/josegabrieldev/" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a> <!-- Fim link Instagram-->
+      <section id="ficha">
+        <img
+          src="imagens/gabriel-perfil.jpg"
+          alt="Foto de perfil de José Gabriel"
+          class="foto"
+        />
+        <h1>José Gabriel</h1>
+        <p>
+          Sou desenvolvedor front-end apaixonado por criar experiências digitais
+          intuitivas. Trabalho com tecnologias modernas e foco na usabilidade.
+          Busco entregar interfaces que conectam pessoas e propósito.
+          Detalhista, ágil e sempre em evolução. Comprometido com qualidade,
+          clareza e evolução constante.
+        </p>
+        <div id="social">
+          <a
+            href="mailto:josegabriel.webdev@gmail.com?subject=Contato%20via%20portfólio&body=Olá%20José%2C%20acabei%20de%20ver%20seu%20portfólio%20e%20gostaria%20de%20falar%20sobre%20uma%20possível%20colaboração.
+"
+            target="_blank"
+            rel="nofollow"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <!-- Fim link Email-->
+          <a
+            href="https://www.linkedin.com/in/josegabrieldev/"
+            target="_blank"
+            rel="nofollow"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <!-- Fim link LinkedIn-->
+          <a
+            href="https://wa.me/5583996860603?text=Olá%20José%2C%20vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20seus%20serviços.
+"
+            target="_blank"
+            rel="nofollow"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <!-- Fim link WhatsApp-->
+          <a
+            href="https://github.com/josegabrieldev"
+            target="_blank"
+            rel="nofollow"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <!-- Fim link GitHub-->
+          <a
+            href="https://www.instagram.com/josegabrieldev/"
+            target="_blank"
+            rel="nofollow"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <!-- Fim link Instagram-->
+        </div>
+      </section>
+
+      <section id="detalhes">
+        <article id="skills">
+          <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+          <div id="skill-container">
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-code"></i>
+                  HTML5
+                </span>
+                <span class="porcent"> 85% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 85%"></div>
+              </div>
             </div>
-        </section>
+            <!-- Fim Item 1-->
 
-        <section id="detalhes">
-            <article id="skills">
-                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
-                <div id="skill-container">
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i>
-                                HTML5
-                            </span>
-                            <span class="porcent">
-                                85%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 85%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 1-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-code"></i>
+                  CSS3
+                </span>
+                <span class="porcent"> 80% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 80%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 2-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i>
-                                CSS3
-                            </span>
-                            <span class="porcent">
-                                80%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 80%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 2-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-code"></i>
+                  Design Responsivo
+                </span>
+                <span class="porcent"> 77% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 77%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 3-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i>
-                                Design Responsivo
-                            </span>
-                            <span class="porcent">
-                                77%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 77%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 3-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-code"></i>
+                  Noções de UI/UX
+                </span>
+                <span class="porcent"> 70% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 70%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 4-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i>
-                                Noções de UI/UX
-                            </span>
-                            <span class="porcent">
-                                70%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 70%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 4-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-code"></i>
+                  JavaScript
+                </span>
+                <span class="porcent"> 40% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 40%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 5-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-code"></i>
-                                JavaScript
-                            </span>
-                            <span class="porcent">
-                                40%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 40%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 5-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-rays"></i>
+                  Proatividade
+                </span>
+                <span class="porcent"> 90% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 90%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 6-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i>
-                                Proatividade
-                            </span>
-                            <span class="porcent">
-                                90%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 6-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-rays"></i>
+                  Adaptabilidade
+                </span>
+                <span class="porcent"> 88% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 88%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 7-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i>
-                                Adaptabilidade
-                            </span>
-                            <span class="porcent">
-                                88%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 88%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 7-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-rays"></i>
+                  Trabalho em Equipe
+                </span>
+                <span class="porcent"> 80% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 80%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 8-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i>
-                                Trabalho em Equipe
-                            </span>
-                            <span class="porcent">
-                                80%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 80%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 8-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-rays"></i>
+                  Comunicação
+                </span>
+                <span class="porcent"> 75% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 75%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 9-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i>
-                                Comunicação
-                            </span>
-                            <span class="porcent">
-                                75%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 75%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 9-->
+            <div class="item">
+              <div class="info">
+                <span class="nome">
+                  <i class="fa-solid fa-person-rays"></i>
+                  Proatividade
+                </span>
+                <span class="porcent"> 70% </span>
+              </div>
+              <div class="barra">
+                <div class="progresso" style="width: 70%"></div>
+              </div>
+            </div>
+            <!-- Fim Item 10-->
+          </div>
+        </article>
+        <!-- Fim article#skills-->
 
-                    <div class="item">
-                        <div class="info">
-                            <span class="nome">
-                                <i class="fa-solid fa-person-rays"></i>
-                                Proatividade
-                            </span>
-                            <span class="porcent">
-                                70%
-                            </span>
-                        </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 70%;"></div>
-                        </div>
-                    </div> <!-- Fim Item 10-->
+        <article id="formacao">
+          <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
 
-                </div>
-            </article> <!-- Fim article#skills-->
+          <div id="formacao-container">
+            <div class="curso">
+              <p class="periodo">Dez/2024 — Mar/2025</p>
+              <h3 class="instituicao">Curso em Vídeo</h3>
+              <p class="titulacao">HTML5 e CSS3</p>
+            </div>
 
-            <article id="formacao">
-                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+            <div class="curso">
+              <p class="periodo">Jul/2025 — Ago/2025</p>
+              <h3 class="instituicao">Curso em Vídeo</h3>
+              <p class="titulacao">JavaScript</p>
+            </div>
+          </div>
+        </article>
+        <!-- Fim article#formacao-->
 
-                <div id="formacao-container">
-                    <div class="curso">
-                        <p class="periodo">Dez/2024 — Mar/2025</p>
-                        <h3 class="instituicao">Curso em Vídeo</h3>
-                        <p class="titulacao">HTML5 e CSS3</p>
-                    </div>
+        <article id="projetos">
+          <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+          <div id="projetos-container">
+            <div class="projeto">
+              <!-- PROJETO 01-->
+              <a
+                href="https://josegabrieldev.github.io/projeto-cordel/"
+                target="_blank"
+              >
+                <img
+                  src="imagens/projeto-cordel-moderno-tablet.png"
+                  alt="Imagem do Projeto Cordel Moderno"
+                  class="foto"
+                />
+              </a>
+              <div class="projeto-info">
+                <p class="periodo">Jan/2025</p>
+                <h3 class="titulo">Projeto Cordel Moderno</h3>
+                <p>
+                  Site inspirado na literatura de cordel, combinando design
+                  minimalista, boa legibilidade e valorização da cultura popular
+                  em formato digital.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    O Projeto Cordel Moderno foi criado para reinterpretar a
+                    tradicional literatura de cordel em um ambiente digital
+                    acessível e elegante. Utilizando HTML e CSS, o projeto
+                    priorizou um layout limpo, tipografia legível e fundos
+                    otimizados, reforçando o contraste visual entre texto e
+                    imagem. A proposta foi unir tradição e modernidade, mantendo
+                    a essência poética e visual do cordel, mas adaptada a um
+                    formato web responsivo e contemporâneo. O resultado é uma
+                    página leve, culturalmente rica e tecnicamente estruturada
+                    segundo boas práticas de desenvolvimento.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <!-- Fim Projeto 01-->
 
-                    <div class="curso">
-                        <p class="periodo">Jul/2025 — Ago/2025</p>
-                        <h3 class="instituicao">Curso em Vídeo</h3>
-                        <p class="titulacao">JavaScript</p>
-                    </div>
-                </div>
-            </article> <!-- Fim article#formacao-->
+            <div class="projeto">
+              <!-- PROJETO 02-->
+              <a
+                href="https://josegabrieldev.github.io/projeto-android/"
+                target="_blank"
+              >
+                <img
+                  src="imagens/projeto-android-laptop.png"
+                  alt="Imagem Android"
+                  class="foto"
+                />
+              </a>
+              <div class="projeto-info">
+                <p class="periodo">Fev/2025</p>
+                <h3 class="titulo">Projeto Android</h3>
+                <p>
+                  Uma página temática dedicada ao sistema Android, desenvolvida
+                  com HTML semântico e design responsivo para oferecer uma
+                  experiência visual moderna e intuitiva.
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    O Projeto Android teve como objetivo explorar os fundamentos
+                    do desenvolvimento web utilizando HTML e CSS, com foco em
+                    estrutura semântica e boas práticas de layout. A proposta
+                    foi criar uma página informativa sobre o sistema Android,
+                    destacando a importância do design responsivo para
+                    diferentes dispositivos. Durante o desenvolvimento, foram
+                    aplicadas técnicas de tipografia personalizada, otimização
+                    de imagens e alinhamento visual, garantindo leveza, clareza
+                    e acessibilidade. O resultado é uma página funcional,
+                    esteticamente agradável e alinhada aos padrões modernos da
+                    web.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <!-- Fim Projeto 02-->
 
-            <article id="projetos">
-                <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
-                <div id="projetos-container">
-                    <div class="projeto"> <!-- PROJETO 01-->
-                        <a href="https://josegabrieldev.github.io/projeto-cordel/" target="_blank">
-                            <img src="imagens/projeto-cordel-moderno-tablet.png" alt="Imagem do Projeto Cordel Moderno" class="foto">
-                        </a>
-                        <div class="projeto-info">
-                            <p class="periodo">Jan/2025</p>
-                            <h3 class="titulo">Projeto Cordel Moderno</h3>
-                            <p>Site inspirado na literatura de cordel, combinando design minimalista, boa legibilidade e valorização da cultura popular em formato digital.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>O Projeto Cordel Moderno foi criado para reinterpretar a tradicional literatura de cordel em um ambiente digital acessível e elegante. Utilizando HTML e CSS, o projeto priorizou um layout limpo, tipografia legível e fundos otimizados, reforçando o contraste visual entre texto e imagem. A proposta foi unir tradição e modernidade, mantendo a essência poética e visual do cordel, mas adaptada a um formato web responsivo e contemporâneo. O resultado é uma página leve, culturalmente rica e tecnicamente estruturada segundo boas práticas de desenvolvimento.</p>
-                            </details>
-                        </div>
-                    </div> <!-- Fim Projeto 01-->
-
-                        <div class="projeto"> <!-- PROJETO 02-->
-                        <a href="https://josegabrieldev.github.io/projeto-android/" target="_blank">
-                            <img src="imagens/projeto-android-laptop.png" alt="Imagem Android" class="foto">
-                        </a>
-                        <div class="projeto-info">
-                            <p class="periodo">Fev/2025</p>
-                            <h3 class="titulo">Projeto Android</h3>
-                            <p>Uma página temática dedicada ao sistema Android, desenvolvida com HTML semântico e design responsivo para oferecer uma experiência visual moderna e intuitiva.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>O Projeto Android teve como objetivo explorar os fundamentos do desenvolvimento web utilizando HTML e CSS, com foco em estrutura semântica e boas práticas de layout. A proposta foi criar uma página informativa sobre o sistema Android, destacando a importância do design responsivo para diferentes dispositivos. Durante o desenvolvimento, foram aplicadas técnicas de tipografia personalizada, otimização de imagens e alinhamento visual, garantindo leveza, clareza e acessibilidade. O resultado é uma página funcional, esteticamente agradável e alinhada aos padrões modernos da web.</p>
-                            </details>
-                        </div>
-                    </div> <!-- Fim Projeto 02-->
-
-                        <div class="projeto"> <!-- PROJETO 03-->
-                        <a href="https://josegabrieldev.github.io/projeto-social/" target="_blank">
-                            <img src="imagens/projeto-rede-social-celular.png" alt="Imagem Projeto Rede Social" class="foto">
-                        </a>
-                        <div class="projeto-info">
-                            <p class="periodo">Ago/2025</p>
-                            <h3 class="titulo">Projeto Rede Social</h3>
-                            <p>Simulação de uma interface mobile com ícones interativos de redes sociais, unindo design moderno e responsividade para reproduzir a experiência real de um smartphone</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>O Projeto Rede Social foi desenvolvido com o propósito de aprimorar a criação de interfaces digitais realistas, focando na simulação de um dispositivo móvel. A estrutura foi montada com HTML e CSS, destacando a organização de assets e o uso de elementos visuais que remetem a ícones de aplicativos populares. O layout é totalmente responsivo, garantindo uma visualização fluida em diferentes tamanhos de tela. Além do apelo visual, o projeto reforçou conceitos de UX/UI, hierarquia visual e estética moderna, resultando em uma interface envolvente e intuitiva.</p>
-                            </details>
-                        </div>
-                    </div> <!-- Fim Projeto 03-->
-                </div>
-
-            </article> <!-- Fim article#projetos-->
-        </section>
+            <div class="projeto">
+              <!-- PROJETO 03-->
+              <a
+                href="https://josegabrieldev.github.io/projeto-social/"
+                target="_blank"
+              >
+                <img
+                  src="imagens/projeto-rede-social-celular.png"
+                  alt="Imagem Projeto Rede Social"
+                  class="foto"
+                />
+              </a>
+              <div class="projeto-info">
+                <p class="periodo">Ago/2025</p>
+                <h3 class="titulo">Projeto Rede Social</h3>
+                <p>
+                  Simulação de uma interface mobile com ícones interativos de
+                  redes sociais, unindo design moderno e responsividade para
+                  reproduzir a experiência real de um smartphone
+                </p>
+                <details class="descricao">
+                  <summary>Saiba mais...</summary>
+                  <p>
+                    O Projeto Rede Social foi desenvolvido com o propósito de
+                    aprimorar a criação de interfaces digitais realistas,
+                    focando na simulação de um dispositivo móvel. A estrutura
+                    foi montada com HTML e CSS, destacando a organização de
+                    assets e o uso de elementos visuais que remetem a ícones de
+                    aplicativos populares. O layout é totalmente responsivo,
+                    garantindo uma visualização fluida em diferentes tamanhos de
+                    tela. Além do apelo visual, o projeto reforçou conceitos de
+                    UX/UI, hierarquia visual e estética moderna, resultando em
+                    uma interface envolvente e intuitiva.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <!-- Fim Projeto 03-->
+          </div>
+        </article>
+        <!-- Fim article#projetos-->
+      </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3><i class="fa-solid fa-code"></i> José Gabriel</h3>
-                <div class="footer-info">
-                    <p>Desenvolvedor front-end apaixonado por criar experiências digitais memoráveis e interfaces intuitivas.</p>
-                    <p><i class="fa-solid fa-location-dot"></i> Paraíba, Brasil</p>
-                </div>
-            </div>
-
-            <div class="footer-section">
-                <h3><i class="fa-solid fa-paper-plane"></i> Conecte-se</h3>
-                <div class="footer-social">
-                    <a href="mailto:josegabriel.webdev@gmail.com" target="_blank" title="Email">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/josegabrieldev/" target="_blank" title="LinkedIn">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://wa.me/5583996860603" target="_blank" title="WhatsApp">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a href="https://github.com/josegabrieldev" target="_blank" title="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="https://www.instagram.com/josegabrieldev/" target="_blank" title="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3><i class="fa-solid fa-code"></i> José Gabriel</h3>
+          <div class="footer-info">
+            <p>
+              Desenvolvedor front-end apaixonado por criar experiências digitais
+              memoráveis e interfaces intuitivas.
+            </p>
+            <p><i class="fa-solid fa-location-dot"></i> Paraíba, Brasil</p>
+          </div>
         </div>
 
-        <div class="footer-bottom">
-            <p>&copy; 2025 José Gabriel. Todos os direitos reservados.</p>
-            <p>const DevGabriel = () => "Criando hoje as interfaces do amanhã"</p>
+        <div class="footer-section">
+          <h3><i class="fa-solid fa-paper-plane"></i> Conecte-se</h3>
+          <div class="footer-social">
+            <a
+              href="mailto:josegabriel.webdev@gmail.com"
+              target="_blank"
+              title="Email"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/josegabrieldev/"
+              target="_blank"
+              title="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://wa.me/5583996860603"
+              target="_blank"
+              title="WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://github.com/josegabrieldev"
+              target="_blank"
+              title="GitHub"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/josegabrieldev/"
+              target="_blank"
+              title="Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
         </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 José Gabriel. Todos os direitos reservados.</p>
+        <p>const DevGabriel = () => "Criando hoje as interfaces do amanhã"</p>
+      </div>
     </footer>
 
     <script src="scripts/script.js"></script>
-</body>
+  </body>
 </html>
