@@ -338,6 +338,21 @@ footer::before {
 }
 
 @media screen And (min-width: 768px) {
+  main {
+    grid-template-columns: auto 1fr auto 1fr;
+  }
+
+  section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 65px;
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4;
+  }
+
   #skill-container {
     grid-template-columns: 1fr 1fr;
   }
