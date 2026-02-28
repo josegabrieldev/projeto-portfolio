@@ -16,11 +16,21 @@
   --fundo-card: #ffffff;
 }
 
+body.escuro {
+  --fundo-principal: #050505ea;
+  --texto: #ffffffe3;
+  --texto-inverso: #020202e1;
+  --destaque: #00ff15;
+  --destaque-inverso: #013f06;
+  --fundo-card: #444444;
+}
+
 body {
   background-color: var(--fundo-principal);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--texto);
   line-height: 1.5em;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 header {
@@ -38,7 +48,7 @@ header {
 nav#menu ul {
   display: flex;
   gap: 10px;
-  list-style: none
+  list-style: none;
 }
 
 nav#menu a {
@@ -47,7 +57,9 @@ nav#menu a {
   text-decoration: none;
   padding: 10px 12px;
   border-radius: 5px;
-  transition: background-color 0.5s, color 0.5s;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
 }
 
 nav#menu a:hover {
@@ -94,12 +106,12 @@ div#social {
   align-items: center;
   gap: 1rem;
   font-size: 1.6rem;
-  margin-top: .7rem;
+  margin-top: 0.7rem;
 }
 
 div#social a {
   color: var(--destaque);
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
 
 div#social a:hover {
@@ -167,8 +179,10 @@ article h2 {
   background-color: var(--fundo-principal);
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
-  padding: .7rem 1rem;
-  transition: border-width 0.5s ease, border-color 0.5s ease;
+  padding: 0.7rem 1rem;
+  transition:
+    border-width 0.5s ease,
+    border-color 0.5s ease;
 }
 
 #formacao-container .curso:hover {
@@ -178,7 +192,7 @@ article h2 {
 }
 
 #formacao-container .periodo {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 0.9em;
   font-weight: bold;
   color: var(--texto);
@@ -203,12 +217,14 @@ article h2 {
 #projetos-container .projeto {
   display: flex;
   flex-direction: column-reverse;
-  gap: .5rem;
+  gap: 0.5rem;
   background-color: var(--fundo-principal);
   border-radius: 8px;
   border-left: 5px solid var(--destaque-inverso);
-  padding: .7rem 1rem;
-  transition: border-width 0.5s ease, border-color 0.5s ease;
+  padding: 0.7rem 1rem;
+  transition:
+    border-width 0.5s ease,
+    border-color 0.5s ease;
 }
 
 #projetos-container .projeto:hover {
@@ -228,11 +244,11 @@ article h2 {
 #projetos-container .projeto-info {
   display: flex;
   flex-direction: column;
-  gap: .3rem;
+  gap: 0.3rem;
 }
 
 #projetos-container .periodo {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 0.9em;
   font-weight: bold;
   color: var(--texto);
@@ -262,16 +278,18 @@ footer {
 }
 
 footer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(90deg, 
-      var(--destaque-inverso) 0%, 
-      var(--texto-inverso) 50%, 
-      var(--destaque-inverso) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--destaque-inverso) 0%,
+    var(--texto-inverso) 50%,
+    var(--destaque-inverso) 100%
+  );
 }
 
 .footer-content {
@@ -389,6 +407,6 @@ footer::before {
 }
 @media screen and (min-width: 1024px) {
   .footer-content {
-      grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
   }
 }
