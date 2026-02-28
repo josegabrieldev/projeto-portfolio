@@ -19,9 +19,9 @@
 body.escuro {
   --fundo-principal: #050505ea;
   --texto: #ffffffe3;
-  --texto-inverso: #020202e1;
-  --destaque: #00ff15;
-  --destaque-inverso: #013f06;
+  --texto-inverso: #000000c7;
+  --destaque: #54f37c;
+  --destaque-inverso: #00ff15;
   --fundo-card: #444444;
 }
 
